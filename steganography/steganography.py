@@ -1,7 +1,4 @@
-from base64 import decode
-from os import remove
 import sys
-from tkinter import Image
 from PIL import Image as img
 from sympy import ceiling
 
