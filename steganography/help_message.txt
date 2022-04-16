@@ -1,0 +1,21 @@
+
+
+Program zakodowuje plik tekstowy do pliku graficznego lub dekoduje tekst z pliku graficznego.
+――――――――――
+Wczytywane parametry:
+    metoda pracy: encode -- zakodowanie pliku; decode -- deszyfrowanie tekstu
+―――――
+Zakodowywanie:
+Wczytywane parametry:
+    - path do pliku do zakodowania
+    - path do pliku graficznego, na którym ma zostać zapisana wiadomość
+    - path do pliku graficznego otrzymanego po zaszyfrowaniu
+    UWAGA: Kodowanie nie uda się, jeśli plik docelowy jest formatu .jpg!
+    Najlepiej użyć formatu .png
+    UWAGA 2: Program nie zakodowuje wiadomości z polskimi znakami i niektórymi znakami specjalnymi!
+―――――
+Dekodowanie:
+Wczytywane parametry:
+    - path pliku graficznego, z którego ma zostać odczytana wiadomość
+    - path do pliku tekstowego gdzie ma zostać zapisana zdeszyfrowana wiadomość
+
