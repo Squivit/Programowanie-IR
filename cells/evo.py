@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from matplotlib.colors import BoundaryNorm
 
-steps = 8
+# colormap
 trimap = ListedColormap(['white', 'red', 'blue'])
-data = []
 
+### randomowe dane pomagające w wizulizacji ###
+# ilość kroków ewolucji
+steps = 8
+data = []
 c = round(random()*256)
 data0 = [int(b) for b in np.binary_repr(c)]
 data.append(np.array(data0))
@@ -24,6 +27,8 @@ for i in range(steps):
 
 for a in data:
     print(a)
+
+## KONIEC ##
 
 bounds = [0, 1, 2, 3]
 norm = BoundaryNorm(bounds, trimap.N)
