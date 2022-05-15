@@ -54,9 +54,6 @@ initial_state_in = input("Proszę podać stan początkowy: ")
 
 # bramka sprawdzająca czy stan jest dobry
 try:
-# sprawdza czy da się odczytać to jako int
-    int(initial_state_in)
-
     initial_state_ints = [int(b) for b in initial_state_in]
     for a in initial_state_ints:
         if a > 2:
